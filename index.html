@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="Photos/sahiti-logo.png" type="image/gif" sizes="16x16">
+
+    <title>Sahiti</title>
+
+    <meta name="Sahiti" content="Sahiti | Telugu Literary Association of VIT Vellore" />
+    <meta name="description" content="Sahiti | Telugu Literary Association of VIT Vellore" />
+    <meta name="keywords" content="Sahiti, VIT vellore, Telugu Literary club" />
+
+
+    <meta itemprop="name" content="Sahiti">
+    <meta itemprop="description" content="Sahiti | Telugu Literary Association of VIT Vellore">
+    <meta itemprop="image" content="https://sahititla.com/Photos/sahiti-logo.png" />
+
+
+    <meta property="og:title" content="Sahiti" />
+    <meta property="og:image" content="https://sahititla.com/Photos/sahiti-logo.png" />
+    <meta property="og:url" content="Sahititla.com" />
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Sahiti | Telugu Literary Association of VIT Vellore" />
+
+    <meta name="twitter:title" content="Sahiti" />
+    <meta name="twitter:image" content="https://sahititla.com/Photos/sahiti-logo.png" />
+    <meta name="twitter:url" content="https://sahititla.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="description" content="Sahiti | Telugu Literary Association of VIT Vellore">
+    <meta name="twitter:site" content="">
+
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css?version=5">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171588218-1"></script>
+
+    <style>
+        .container {
+            padding-top: 20px;
+        }
+
+        .our-sponsor-area {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            background: none;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        .marquee-left,
+        .marquee-right {
+            display: flex;
+            align-items: center;
+            width: 200%;
+            animation: marquee 30s linear infinite;
+            background-color: transparent;
+        }
+
+        .marquee-left .single-sponsor,
+        .marquee-right .single-sponsor {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 30px;
+        }
+
+        .marquee-left .single-sponsor img,
+        .marquee-right .single-sponsor img {
+            max-height: 50px;
+            border: none;
+            vertical-align: middle;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .marquee-right {
+            animation-direction: reverse;
+        }
+    </style>
+
+
+
+    <!-- <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-171588218-1');
+</script> -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swiper = new Swiper('.yt-vedios .swiper-container', {
+                loop: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                slidesPerView: 1,
+                spaceBetween: 30,
+                effect: 'slide',
+                breakpoints: {
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    },
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 40,
+                    },
+                },
+                fadeEffect: {
+                    crossFade: true
+                },
+                on: {
+                    init: function () {
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $('#footer').load('footer.html');
+        });
+
+    </script>
+
+</head>
+
+<body id="main">
+
+    <div class="loadmain">
+
+        <div class="loadtext">
+            <ul class="phrase">
+                <li class="light-color">S</li>
+                <li>A</li>
+                <li class="light-color">H</li>
+                <li>I</li>
+                <li class="light-color">T</li>
+                <li>I</li>
+                &nbsp;
+                <li class="light-color">T</li>
+                <li>L</li>
+                <li class="light-color">A</li>
+            </ul>
+
+        </div>
+        <!-- <img class="loader-image" src="Photos/sahiti.png" alt="sahiti photos"> -->
+        <p class="loadtext-sub">- Telugu Literary Association</p>
+
+        <div class="loadtitle">
+            SAHITI TLA
+        </div>
+
+        <div class="loadbar">
+            <div id="fill"></div>
+        </div>
+    </div>
+
+    <header class="header-area" style="padding-bottom: 7px;">
+        <div class="progress1">
+            <div class="progress-container" style="margin-top: 7px;">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
+        </div>
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <nav class="classy-navbar justify-content-between" id="conferNav">
+                    <a class="nav-brand" href="index.html"><img src="Photos/sahiti-nav.png" alt="Sahiti logo"></a>
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <div class="classy-menu">
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+                        <div class="classynav">
+                            <ul id="nav">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="board.html">Board</a></li>
+                                <li><a href="events.html">Events</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="welcome-area">
+        <div class="welcome-slides owl-carousel">
+            <div class="single-welcome-slide bg-img   jarallax" style="background-image: url(Photos/background/c.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="welcome-text text-center">
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Sahiti</h2>
+                                <h6 data-animation="fadeInUp" data-delay="500ms">Telugu Literary Association</h6>
+                                <div class="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(Photos/background/a.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(Photos/background/b.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(../newpics/11.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(../newpics/5_.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(Photos/background/f.jpeg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(Photos/background/g.jpeg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(Photos/background/h.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(../newpics/6.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(Photos/background/j.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(Photos/background/k.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(Photos/background/daksha_3.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(Photos/background/saketh_1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(Photos/background/harika_1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(Photos/background/mouli_2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-welcome-slide bg-img bg-overlay jarallax"
+                style="background-image: url(Photos/background/saketh_harika.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="icon-scroll" id="scrollDown"></div>
+    </section>
+
+    <section class="about-us-countdown-area section-padding-100-0" id="about" data-section="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
+                        <img src="Photos/sahiti-icon.png" alt="Sahiti Icon">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="about-content-text mb-80">
+                        <h6 class="wow fadeInUp" data-wow-delay="300ms">About Sahiti</h6>
+                        <h3 class="wow fadeInUp sahiti_heading" data-wow-delay="300ms">Welcome to Sahiti the one and
+                            only Telugu Literary Association in VIT Vellore</h3>
+                        <p class="wow fadeInUp" data-wow-delay="300ms">VIT lo una Telugu vaarandarki oka vedikagaa vuntu
+                            Telugu Basha, Sahityam, Samskruti, Kalalu Modalinavi kanumarugu avvakunda mundu taralaa
+                            varki andinchey aasayamtho alagey telugu vaaru Andaru kalisi samuhikamga Pandugalu,Vedukalu
+                            jarupukoni kalsi melsi vunte baaguntundaney alochanatho munduku saaguthuna oka kutumbam
+                            SAHITI ❤️
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-ticket-pricing-table-area bg-img bg-gradient-overlay section-padding-100-0"
+        style="background-image: url(Photos/background/c.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
+                        <h4>EVENTS BY SAHITI</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                    <div id="manu-counter" class="manu-counters col-12" data-stellar-background-ratio="0.5">
+                            <div class="row">
+                                <div class="col-md-3 text-center animate-box fadeInUp" style="height:100px;width:100px">
+                                    <div style="display:flex; align-items: center; justify-content: center; gap:2px;">
+                                        <span style="color:white;font-weight: 650;font-size:40px;padding-bottom: 10px;" class="js-counter" data-from="0" data-to="20" data-speed="5000" data-refresh-interval="50"></span>
+                                        <span style="color:white;font-weight: 500;font-size:40px;padding-bottom: 10px;">+</span>
+                                    </div>
+                                    <span class="manu-counter-label"><b>Offline Events</b></span>
+                                </div>
+                                <div class="col-md-3 text-center animate-box" style="height:100px;width:100px">
+                                    <div style="display:flex; align-items: center; justify-content: center; gap:2px;">
+                                        <span style="color:white;font-weight: 650;font-size:40px;padding-bottom: 10px;" class="js-counter" data-from="0" data-to="11" data-speed="5000" data-refresh-interval="50"></span>
+                                        <span style="color:white;font-weight: 500;font-size:40px;padding-bottom: 10px;">+</span>
+                                    </div>
+                                    <span class="manu-counter-label"><b>Celebrities Visited</b></span>
+                                </div>
+                                <div class="col-md-3 text-center animate-box" style="height:100px;width:100px">
+                                    <div style="display:flex; align-items: center; justify-content: center; gap:2px;">
+                                        <span style="color:white;font-weight: 650;font-size:40px;padding-bottom: 10px;" class="js-counter" data-from="0" data-to="560" data-speed="5000" data-refresh-interval="50"></span>
+                                        <span style="color:white;font-weight: 500;font-size:40px;padding-bottom: 10px;">+</span>
+                                    </div>
+                                    <span class="manu-counter-label"><b>Sahiti Family</b></span>
+                                </div>
+                                <div class="col-md-3 text-center animate-box" style="height:100px;width:100px">
+                                    <div style="display:flex; align-items: center; justify-content: center; gap:2px;">
+                                        <span style="color:white;font-weight: 650;font-size:40px;padding-bottom: 10px;" class="js-counter" data-from="0" data-to="85" data-speed="5000" data-refresh-interval="50"></span>
+                                        <span style="color:white;font-weight: 500;font-size:40px;padding-bottom: 10px;">+</span>
+                                    </div>
+                                    <span class="manu-counter-label"><b>Online Events</b></span>
+                                </div>
+                            </div>
+                    </div>              
+            </div>
+        </div>
+    </section>
+
+    <section class="our-sponsor-client-area bg-img bg-gradient section-padding-100 celebrities">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                        <h4>Celebrities Visited</h4>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="our-client-area mt-10 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="client-area owl-carousel">
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p >Oka chinna magician nundi exceptional comedian and power packed entertainer ga edigi, telugu audience ni
+                                        myimaripinchi hyderabad's most eligible list lo tana sathananni
+                                        sampadinchadu.His journey turned into an inspiration for many. Etharulanu
+                                        navistu Thaanu kashtapadutu thana pere oka brand ga marchukunna vykti pere
+                                        Sudigali Sudheer</p>
+                                    <div class="single-client-thumb-info d-flex align-items-center">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/Actors/sudheer.jpg" alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>Sudigali Sudheer</h6>
+                                            <p>Comedian</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p class="pd-5">Falaknama Das fame Vishwaksen, the man of
+                                        heroism and extreme talent himself graced the SAHITI premium event. He brought
+                                        with him the mass energy and josh which energized the entire crowd, making them
+                                        all dance to the mass beats.</p>
+                                    <div class="single-client-thumb-info d-flex align-items-center" style="margin-top:105px;">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/Actors/viswak.jpeg" alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>VISHWAKSEN</h6>
+                                            <p>Actor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p>"Ooo Baava" "Irukku poo hattu koni veera veera....." "Bale bale magadivoy...."
+                                        "Pilaga nuvu iraga iraga...." antu abbayilni pogada daaniki vachhesindi the
+                                        melodious, the energetic, the mass singer, versatility personified, "MOHANA
+                                        BHOGARAJU". She took us all on a melodious journey through out the Sahiti
+                                        Premium event.</p>
+                                    <div class="single-client-thumb-info d-flex align-items-center" style="margin-top:50px;">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/Actors/mohana.jpeg" alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>MOHANA BHOGARAJU</h6>
+                                            <p>Singer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p>Stylish pori, cute lady, the forever kumari 21F, love cheyalo vaddo cheppadaniki
+                                        Sahiti Premium event ki Vachhesindi. Nenu naa boyfriends antu kadha
+                                        cheppadaniki, edo rakam aado rakam antu gola cheyadaniki, ekkadiki pothaav
+                                        chinnavada antu allari cheyadaniki vachhesindi the angel herself, the beautiful
+                                        and elegant HEBAH PATEL.</p>
+                                    <div class="single-client-thumb-info d-flex align-items-center" style="margin-top:20px;">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/Actors/hebba.jpeg" alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>HEBAH PATEL</h6>
+                                            <p>Actress</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p>Motta modati telugu rapper, most energetic singer, power packed composer, stylish
+                                        actor, bulli tera meeda satta choopina anchor, passionate radio jockey, spirited
+                                        lyricist, ila versatile talents annitiki okkare care of address. The one and
+                                        only NOEL SEAN.
+                                        He had come to rock and roll, to groove and sway at SAHITI Premium events.</p>
+                                    <div class="single-client-thumb-info d-flex align-items-center" style="margin-top:50px;">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/Actors/noelsean.jpeg" alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>Noel Sean</h6>
+                                            <p>Singer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p>Ekkado putti ekkado perigi ikkade vacharu
+                                        Film industry lo shikaralani andukunnadu.....
+                                        This man needs no introduction,his action thrillers,comedies and family dramas
+                                        have won legions of admirers for their unique storytelling style,technical
+                                        polish. His
+                                        vision turned every frame into a masterpiece making the audience
+                                        stick to their seats. The flag-bearer of telugu industry Mr. SS Rajamouli.</p>
+                                    <div class="single-client-thumb-info d-flex align-items-center" style="margin-top:5px;">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/Actors/raja.jpg" alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>Rajamouli</h6>
+                                            <p>Director</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p>La La Bheemla antu Power Star vibe ni
+                                        Dheera Dheera antu Rocking Star swag ni match chesina the one and only Talented
+                                        and Young Singer Arun Kaundinya. He just raised the entire vibe of 2023 Sahiti’s
+                                        Anthyakshari event with his Mass songs</p>
+                                    <div class="single-client-thumb-info d-flex align-items-center" style="margin-top:105px;">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/background/k.jpg"  alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>Arun Kaundinya</h6>
+                                            <p>Singer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p>“Hey Ninnila” nunchi “Murari va” varaku thana
+                                        vinasampaina swaralatho andhamaina gaathram tho manalni entertain chesina the
+                                        beautiful lady with a beautiful voice Sruthi Ranjani. Melodies tho modhaletti
+                                        Mass songs tho racha lepi 2023 Sahiti premium event ni grand success chesindhi.
+                                    </p>
+                                    <div class="single-client-thumb-info d-flex align-items-center" style="margin-top:50px;">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/background/sruthi.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>Sruthi Ranjani</h6>
+                                            <p>Singer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p>Ichata Vahanamulu Nilaparadhu tho debut tho manchi hit
+                                        kottindhi. She is dentist,model,swimmer, badminton player and a gorgeous actress
+                                        mana Meenakshi Chaudhary. With her cute answers and expressions she had just
+                                        become a heartthrob for many people who had attended The Chitram’23 event.
+                                    </p>
+                                    <div class="single-client-thumb-info d-flex align-items-center" style="margin-top:50px;">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/background/meenakshi.jpg" 
+                                                alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>Meenakshi Chaudhary</h6>
+                                            <p>Actress</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p>“Dhimaak Kharaab” , “Dhinchak” laanti mass songs ayina “
+                                        Sitharala Sirapadu” , “ Gandarabai” laanti folk songs ayina thanadhaina unique
+                                        voice tho…energetic vibe tho audience lo oka josh nimputhaadu. Sahiti 2024
+                                        Chitram event lo thanadhaina energetic songs tho thanadhaina sense of humour tho
+                                        manalni entertain chesi crowd favourite ayina mana Saketh Komanduri.</p>
+                                    <div class="single-client-thumb-info d-flex align-items-center" style="margin-top:5px;">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/background/saketh_1.jpg" 
+                                                alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>Saketh Komanduri</h6>
+                                            <p>Singer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p>“Laahe Laahe” laanti classical songs ayina
+                                        “Sarkaru Vaari Paata” “Ravanasura” laanti thumping songs ayina thana versatile
+                                        voice tho unmatchable josh tho telugu audience ki dhaggaraindhi. Sahiti
+                                        Chitram’24 lo thanadhaina josh tho mana Sahiti audience ni entha gaano entertain
+                                        chesina mana adorable singer Harika Narayan.</p>
+                                    <div class="single-client-thumb-info d-flex align-items-center" style="margin-top:5px;">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/background/harika_1.jpg" 
+                                                alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>Harika Narayan</h6>
+                                            <p>Singer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p>“Husharu” ga Telugu Audience ni palakarinchi
+                                        “Bangarraju” tho entha sakkagundhi ro anipinchukuni “Ravanasura” tho thana
+                                        versatile acting ni prove cheskoni thana beautiful presence tho mana Sahiti
+                                        Chitram’24 event ni grace chesindhi mana Daksha Nagarkar.</p>
+                                    <div class="single-client-thumb-info d-flex align-items-center" style="margin-top:75px;">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/background/daksha_3.jpg" 
+                                                alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>Daksha Nagarkar</h6>
+                                            <p>Actress</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+                            <div class="single-client-content">
+                                <div class="single-client-text">
+                                    <p>Chadhivina College ke guest ga raavadam is a dream for
+                                        everyone but only few people could make it happen.Roasting channel tho start chesi
+                                        Instagram lo funny content tho popular ayyi…90’s series tho actor ga prove
+                                        cheskoni mana Sahiti audience ni thana unique sense of humour tho entertain
+                                        chesi Chitram’24 event ni grand success chesaadu.</p>
+                                    <div class="single-client-thumb-info d-flex align-items-center">
+                                        <div class="single-client-thumb">
+                                            <img src="Photos/background/mouli.jpg" 
+                                                alt="">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6>Mouli</h6>
+                                            <p>Actor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client-icon">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-sponsor-client-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                        <h4>Previous Sponsors</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="our-sponsor-area">
+                            <div class="marquee-left">
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/SPONSERS (1)/SPONSERS/NEW/AVA INTERN.png"
+                                            style="width: 200px; height: 200px; object-fit: cover; "
+                                            alt="AVA INTERN"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/SPONSERS (1)/SPONSERS/NEW/HIGH_JOINT.png"
+                                            style="width: 200px; height: 200px; object-fit: cover;"
+                                            alt="HIGH JOINT"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width:500px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/SPONSERS (1)/SPONSERS/NEW/LOYAL DREAMS.png"
+                                            style="width: 400px; height: 200px;" alt="LOYAL DREAMS"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/SPONSERS (1)/SPONSERS/NEW/Z3.png"
+                                            style="width: 200px; height: 200px;object-fit: cover; " alt="Z3"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/SPONSERS (1)/SPONSERS/OLD/ALAKAR.png"
+                                            style="width: 200px; height: 200px; object-fit: cover;" alt="ALAKAR"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/SPONSERS (1)/SPONSERS/OLD/AROMAS.png"
+                                            style="width: 200px; height: 200px; object-fit: cover; " alt="AROMAS"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/SPONSERS (1)/SPONSERS/OLD/INDIAN_BANK.png"
+                                            style="width: 300px; height: 200px;" alt="INDIAN BANK"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/SPONSERS (1)/SPONSERS/OLD/REGENCY.png"
+                                            style="width: 200px; height: 200px;object-fit: cover; " alt="REGENCY"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/asp.png"
+                                            style="width: 300px; height: 300px;object-fit: cover; border-radius: 10px;"
+                                            alt="ASP"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="our-sponsor-area">
+                            <div class="marquee-right">
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/pepsi.png"
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;"
+                                            alt="Pepsi"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/spiro.png"
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;"
+                                            alt="Spiro"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/creamo.png"
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;"
+                                            alt="Creamo"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/kanna.png"
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;"
+                                            alt="Kanna"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/abhi-bus.png"
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;"
+                                            alt="Abhi Bus"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/benzz.svg"
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;"
+                                            alt="Benzz"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/create-1.png"
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;"
+                                            alt="Create"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/chef-1.png"
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;"
+                                            alt="Chef"></a>
+                                </div>
+                                <div class="single-sponsor"
+                                    style="width: 300px; height: 200px; margin: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                                    <a href="#"><img src="Photos/Sponsors/swagath-1.png"
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;"
+                                            alt="Swagath"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <section class="container-fluid our-sponsor-client-area bg-img bg-gradient-overlay section-padding-100">
+        <div class="col-12">
+            <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                <h4>Youtube Videos</h4>
+            </div>
+        </div>
+
+        <!-- <div class="gallery-utube">
+            <div class="single-video">
+                <figure>
+                  <li class="uvideo">
+                  <a href="https://youtu.be/Ana_kgzNJZo" target="_blank">
+                      <img class="img-responsive" src="Photos/utube/1.jpg" alt="Sahiti Youtube">
+                      <div class="demo-gallery-poster">
+                        <img src="Photos/core/play-button.png" alt="Sahiti Youtube">
+                      </div>
+                    </a>   
+                    <p class="utube-text">After Movie 2K20</p>
+                    </li>
+              </figure>
+              </div>
+            <div class="single-video">
+              <figure>
+                <li class="uvideo">
+                <a href="https://youtu.be/Gk7TK6Uk0dw" target="_blank">
+                    <img class="img-responsive" src="Photos/utube/111.jpg" alt="Sahiti Youtube">
+                    <div class="demo-gallery-poster">
+                      <img src="Photos/core/play-button.png" alt="Sahiti Youtube">
+                    </div>
+                  </a>   
+                  <p class="utube-text">Single Pasanga X Hoyna Hoyna </p>
+                  </li>
+            </figure>
+            </div>
+            <div class="single-video">
+              <figure>
+                <li class="uvideo">
+                    <a href="https://youtu.be/twoZl-HLiiU" target="_blank">
+                        <img class="img-responsive" src="Photos/utube/2.jpg" alt="Sahiti Youtube">
+                        <div class="demo-gallery-poster">
+                          <img src="Photos/core/play-button.png" alt="Sahiti Youtube">
+                        </div>
+                      </a> 
+                      <p class="utube-text">2018 Freshers orientation </p>  
+                      </li>   
+            </figure>
+            </div>
+            <div class="single-video">
+              <figure>
+                <li class="uvideo">
+                    <a href="https://youtu.be/i-VBMMISFa0" target="_blank">
+                        <img class="img-responsive" src="Photos/utube/3.jpg" alt="Sahiti Youtube">
+                        <div class="demo-gallery-poster">
+                          <img src="Photos/core/play-button.png" alt="Sahiti Youtube">
+                        </div>
+                      </a> 
+                      <p class="utube-text">2017 Freshers orientation</p>  
+                      </li> 
+            </figure>
+            </div>
+          </div> -->
+        <div class="yt-vedios">
+            <div class="swiper-container ">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide wow fadeInLeft" data-wow-delay="300ms">
+                    <div class="card" style="background-color: transparent;">
+                        <a href="https://youtu.be/EOSSBR7wvgg?si=D2iWi1Mt1TBHnEnG" target="_blank">
+                        <img class="card-img-top"  src="Photos/utube/EOSSBR7wvgg-SD.jpg" alt="After Movie 2K20">
+                        <div class="card-body">
+                            <p class="utube-text card-text" >After Movie 2023</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide wow fadeInLeft" data-wow-delay="300ms">
+                    <div class="card" style="background-color: transparent;">
+                        <a href="https://www.youtube.com/watch?v=JouV9BxziUY" target="_blank">
+                        <img class="card-img-top"  src="Photos/utube/nijamene.jpg" alt="After Movie 2K20">
+                        <div class="card-body">
+                            <p class="utube-text card-text" >Nijama Ne Chebutunna</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide wow fadeInLeft" data-wow-delay="300ms">
+                    <div class="card" style="background-color: transparent;">
+                        <a href="https://youtu.be/xm7K0YZ-UrI?si=EZJ-Vgirtz9NOb-r" target="_blank">
+                        <img class="card-img-top"  src="Photos/utube/chanchala.jpg" alt="After Movie 2K20">
+                        <div class="card-body">
+                            <p class="utube-text card-text" >Chanchala Dance Cover</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide wow fadeInLeft" data-wow-delay="300ms">
+                    <div class="card" style="background-color: transparent;">
+                        <a href="https://youtu.be/JQf5rsTUv2E?si=NxF5a3bETZipgArx" target="_blank">
+                        <img class="card-img-top"  src="Photos/utube/hulala.jpg" alt="After Movie 2K20">
+                        <div class="card-body">
+                            <p class="utube-text card-text" >Hulala Dance Cover</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide wow fadeInLeft" data-wow-delay="300ms">
+                    <div class="card" style="background-color: transparent;">
+                        <a href="https://youtu.be/OjwXcsaMpSI?si=iVFWT7_6vAMHgsWT" target="_blank">
+                        <img class="card-img-top"  src="Photos/utube/summer_semester.jpg" alt="After Movie 2K20">
+                        <div class="card-body">
+                            <p class="utube-text card-text" >Summer+Semester</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                
+
+                <div class="swiper-slide wow fadeInLeft" data-wow-delay="300ms">
+                    <div class="card" style="background-color: transparent;">
+                        <a href="https://www.youtube.com/watch?v=esYnv6DKqr0" target="_blank">
+                        <img class="card-img-top"  src="Photos/utube/ma_ma_mahesha.jpg" alt="After Movie 2K20">
+                        <div class="card-body">
+                            <p class="utube-text card-text" >Ma Ma Mahesha Dance Cover</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide wow fadeInLeft" data-wow-delay="300ms">
+                    <div class="card" style="background-color: transparent;">
+                        <a href="https://www.youtube.com/watch?v=lIlYSYwyDo4" target="_blank">
+                        <img class="card-img-top"  src="Photos/utube/Types_of _guys (1).jpg" alt="After Movie 2K20">
+                        <div class="card-body">
+                            <p class="utube-text card-text" >Types of guys we meet</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide wow fadeInLeft" data-wow-delay="300ms">
+                    <div class="card" style="background-color: transparent;">
+                        <a href="https://www.youtube.com/watch?v=tFSl_gCBHNE" target="_blank">
+                        <img class="card-img-top"  src="Photos/utube/coka_cola.jpg" alt="After Movie 2K20">
+                        <div class="card-body">
+                            <p class="utube-text card-text" >Coka 2.0</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide wow fadeInLeft" data-wow-delay="300ms">
+                    <div class="card" style="background-color: transparent;">
+                        <a href="https://www.youtube.com/watch?v=ktpfq4Oqdcs" target="_blank">
+                        <img class="card-img-top"  src="Photos/utube/Ranu_ranu.jpg" alt="After Movie 2K20">
+                        <div class="card-body">
+                            <p class="utube-text card-text">Raanu Raanu Dance Cover </p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+               
+
+
+
+                    <div class="swiper-slide wow fadeInLeft" data-wow-delay="300ms">
+                        <div class="card" style="background-color: transparent;">
+                            <a href="https://youtu.be/Ana_kgzNJZo" target="_blank">
+                                <img class="card-img-top" src="Photos/utube/1.jpg" alt="After Movie 2K20">
+                                <div class="card-body">
+                                    <p class="utube-text card-text">After Movie 2K20</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide wow fadeInLeft" data-wow-delay="500ms">
+                        <div class="card" style="background-color: transparent;">
+                            <a href="https://youtu.be/Gk7TK6Uk0dw" target="_blank">
+                                <img class="card-img-top" src="Photos/utube/111.jpg" alt="Single Pasanga X Hoyna Hoyna">
+                                <div class="card-body">
+                                    <p class="utube-text card-text">Single Pasanga X Hoyna Hoyna</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide wow fadeInLeft" data-wow-delay="700ms">
+                        <div class="card" style="background-color: transparent;">
+                            <a href="https://youtu.be/LnMLuAGau1U" target="_blank">
+                                <img class="card-img-top" src="Photos/utube/5.jpg" alt="Kamini Song Telugu Version">
+                                <div class="card-body">
+                                    <p class="utube-text card-text">Kamini Song Telugu Version</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide wow fadeInLeft" data-wow-delay="900ms">
+                        <div class="card" style="background-color: transparent;">
+                            <a href="https://youtu.be/MXP7dG3henc" target="_blank">
+                                <img class="card-img-top" src="Photos/utube/4.png" alt="Sahiti Dance Video">
+                                <div class="card-body">
+                                    <p class="utube-text card-text">Sahiti Dance Video</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" style="background-color: transparent;">
+                            <a href="https://youtu.be/twoZl-HLiiU" target="_blank">
+                                <img class="card-img-top" src="Photos/utube/2.jpg" alt="2018 Freshers orientation">
+                                <div class="card-body">
+                                    <p class="utube-text card-text">2018 Freshers orientation</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" style="background-color: transparent;">
+                            <a href="https://youtu.be/i-VBMMISFa0" target="_blank">
+                                <img class="card-img-top" src="Photos/utube/3.jpg" alt="2017 Freshers orientation">
+                                <div class="card-body">
+                                    <p class="utube-text card-text">2017 Freshers orientation</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination wow fadeInRight" data-wow-delay="1100ms"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-our-area section-padding-100-0" id=contact data-section="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                        <p>Have Questions?</p>
+                        <h4>Contact us</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-12 col-sm-3">
+                    <div class="contact-information mb-100">
+                        <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                            <p>Address:</p>
+                            <h6>VIT Vellore, Tamilnadu</h6>
+                        </div>
+                        <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                            <p>Phone:</p>
+                            <h6>+91 81255 38556</h6>
+                        </div>
+                        <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                            <p>Email:</p>
+                            <h6>Sahititla.vit@gmail.com</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-8">
+                    <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">
+                        <div class="contact_form">
+                            <form name=myform action="https://formspree.io/sahititla.vit@gmail.com" method="POST">
+                                <div class="contact_input_area">
+                                    <div id="success_fail_info"></div>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control mb-30" name="name"
+                                                    placeholder="Your Name" autocomplete="off" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control mb-30" name="Phone"
+                                                    placeholder="Your Number" autocomplete="off" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control mb-30" name="email"
+                                                    placeholder="E-mail" autocomplete="off" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control mb-30" name="subject"
+                                                    placeholder="Subject" autocomplete="off" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <textarea name="message" class="form-control mb-30" cols="30" rows="6"
+                                                    placeholder="Your Message" autocomplete="off" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn confer-btn" name="submit">Send Message <i
+                                                    class="zmdi zmdi-long-arrow-right"></i></button>
+                                        </div>
+                                        <div>
+                                            <input type="hidden" id="details" name="details" value="value">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script>
+        // ---------------pre loader-----------
+
+        /*unhiding the session part will enable browser session storage*/
+
+        if (!sessionStorage.isVisited) {
+            sessionStorage.isVisited = 'true';
+            var progress = 0;
+            document.onreadystatechange = function () {
+                if (document.readyState == "interactive") {
+                    var allElement = $("*");
+                    var length = allElement.length;
+                    for (var i = 0; i < length; i++) {
+                        set_element(allElement[i], length);
+                    }
+                }
+            }
+            function set_element(element, totalElement) {
+                var percentage = 100 / totalElement;
+                if ($(element).length == 1) {
+                    $("#fill").animate({ width: progress + percentage + "%" }, 8, function () {
+                        if (document.getElementById("fill").style.width == "100%") {
+                            $(".loadmain").fadeOut(600);
+                        }
+                    });
+                    progress = progress + percentage;
+                }
+            }
+        } else {
+            $(".loadmain").hide();
+        }
+
+    </script>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+    <script>
+        document.querySelector('body').addEventListener('mousemove', eyeball);
+        function eyeball() {
+            var eye = document.querySelectorAll('.eye');
+            eye.forEach(function (eye) {
+                let x = (eye.getBoundingClientRect().left) + (eye.clientWidth / 2)
+                let y = (eye.getBoundingClientRect().top) + (eye.clientHeight / 2)
+                let radian = Math.atan2(event.pageX - x, event.pageY - y)
+                let rot = (radian * (180 / Math.PI) * -1) + 270;
+                eye.style.transform = "rotate(" + rot + "deg)";
+            })
+
+        }
+    </script>
+
+
+    <!-- Swiper JS for YT vedios carousal-->
+
+    <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+
+        var swiper = new Swiper('.swiper-container', {
+            //   slidesPerView: 4,
+            spaceBetween: 10,
+            slidesPerGroup: 2,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                100: {
+                    slidesPerView: 2,
+                    spaceBetween: 15,
+                },
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 10,
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 25,
+                },
+            }
+        });
+    </script>
+    <script src="js/events/validation.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/confer.bundle.js"></script>
+    <script src="js/default-assets/active.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
