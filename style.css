@@ -1626,134 +1626,344 @@ input:required {
         text-align: right; }
 
 /* 16.0 Client Area CSS */
+
+
 .our-client-area {
   position: relative;
-  z-index: 1; }
-  .our-client-area .owl-prev,
-  .our-client-area .owl-next {
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
-    position: absolute;
-    top: 50%;
-    left: -30px;
-    height: 50px;
-    margin-top: -25px;
-    z-index: 10;
-    text-align: center;
-    line-height: 50px;
-    color: #ffffff;
-    font-size: 40px;
-    opacity: 0.5; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .our-client-area .owl-prev,
-      .our-client-area .owl-next {
-        left: -15px; } }
-    @media only screen and (max-width: 767px) {
-      .our-client-area .owl-prev,
-      .our-client-area .owl-next {
-        left: -15px; } }
-    .our-client-area .owl-prev:hover, .our-client-area .owl-prev:focus,
-    .our-client-area .owl-next:hover,
-    .our-client-area .owl-next:focus {
-      opacity: 1; }
-  .our-client-area .owl-next {
-    left: auto;
-    right: -30px; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .our-client-area .owl-next {
-        right: -15px; } }
-    @media only screen and (max-width: 767px) {
-      .our-client-area .owl-next {
-        right: -15px; } }
-  .our-client-area.about-page .owl-prev,
-  .our-client-area.about-page .owl-next {
-    color: #5f608e;
-    opacity: 1; }
-    .our-client-area.about-page .owl-prev:hover, .our-client-area.about-page .owl-prev:active,
-    .our-client-area.about-page .owl-next:hover,
-    .our-client-area.about-page .owl-next:active {
-      color: #df42b1; }
+  z-index: 1;
+}
+/* Arrow button styling */
+.our-client-area .owl-prev,
+.our-client-area .owl-next {
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  margin-top: -25px;
+  z-index: 10;
+  text-align: center;
+  line-height: 50px;
+  color: #ffffff;
+  font-size: 40px;
+  opacity: 0.5;
+}
+.our-client-area .owl-prev {
+  left: -30px;
+}
 
+.our-client-area .owl-next {
+  right: -30px;
+  left: auto;
+}
+
+/* Media queries */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .our-client-area .owl-prev {
+    left: -15px;
+  }
+  .our-client-area .owl-next {
+    right: -15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .our-client-area .owl-prev {
+    left: -10px;
+  }
+  .our-client-area .owl-next {
+    right: -10px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+  .single-client-thumb img {
+    display: block; 
+    visibility: visible;
+    width: 100%; 
+    height: auto; 
+  }
+}
+
+/* Single client content styling */
 .single-client-content {
   position: relative;
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 40px 50px;
   border-radius: 10px;
-  margin: 5px; 
-  width:500px;
-  height:390px;
+  margin: 5px;
+  width: 500px;
+  height: 390px;
   font-size: 10px;
 }
-  @media only screen and (max-width: 767px) {
-    .single-client-content {
-      padding: 30px; } }
-  .single-client-content .single-client-text {
-    position: relative;
-    z-index: 1; }
-    .single-client-content .single-client-text p {
-      color: #ffffff;
-      margin-bottom: 20px;
-      font-weight: 300; }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .single-client-content .single-client-text p {
-          font-size: 12px; } }
-      @media only screen and (max-width: 767px) {
-        .single-client-content .single-client-text p {
-          font-size: 14px; } }
-    .single-client-content .single-client-text .single-client-thumb-info .single-client-thumb {
-      width: 65px;
-      height: 65px; }
-      .single-client-content .single-client-text .single-client-thumb-info .single-client-thumb img {
-        border-radius: 50%; }
-    .single-client-content .single-client-text .single-client-thumb-info .client-info {
-      margin-left: 15px; }
-      .single-client-content .single-client-text .single-client-thumb-info .client-info h6 {
-        color: #ffffff;
-        font-size: 18px;
-        margin-bottom: 0; }
-        @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .single-client-content .single-client-text .single-client-thumb-info .client-info h6 {
-            font-size: 14px; } }
-        @media only screen and (max-width: 767px) {
-          .single-client-content .single-client-text .single-client-thumb-info .client-info h6 {
-            font-size: 14px; } }
-      .single-client-content .single-client-text .single-client-thumb-info .client-info p {
-        margin-bottom: 0;
-        color: #df42b1; }
-        @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .single-client-content .single-client-text .single-client-thumb-info .client-info p {
-            font-size: 14px; } }
-        @media only screen and (max-width: 767px) {
-          .single-client-content .single-client-text .single-client-thumb-info .client-info p {
-            font-size: 14px; } }
-        @media only screen and (min-width: 576px) and (max-width: 767px) {
-          .single-client-content .single-client-text .single-client-thumb-info .client-info p {
-            font-size: 12px; } }
-    .single-client-content .single-client-text.about-page p {
-      color: #5d5e8d; }
-    .single-client-content .single-client-text.about-page .client-info h6 {
-      color: #111343; }
-  .single-client-content .client-icon {
-    background: #df42b1;
-    background: -moz-linear-gradient(120deg, #df42b1 0%, #505add 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 0.7;
-    position: absolute;
-    top: -8px;
-    left: 45px;
-    font-size: 80px; }
-    .single-client-content .client-icon i {
-      -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-      transform: rotate(180deg); }
-.single-client-thumb img{
-  width:68px;
-  height:68px;
+
+@media only screen and (min-width: 700px) and (max-width: 1100px) {
+  .single-client-content {
+    width: 90%;
+    padding: 20px;
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single-client-content {
+    padding: 30px;
+    width: 100%;
+  }
+}
+
+/* Client text styling */
+.single-client-content .single-client-text {
+  position: relative;
+  z-index: 1;
+}
+
+.single-client-content .single-client-text p {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-client-content .single-client-text p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single-client-content .single-client-text p {
+    font-size: 14px;
+  }
+}
+
+/* Client thumbnail info styling */
+.single-client-content .single-client-text .single-client-thumb-info .single-client-thumb {
+  width: 65px;
+  height: 65px;
+}
+
+.single-client-content .single-client-text .single-client-thumb-info .single-client-thumb img {
+  border-radius: 50%;
+}
+
+/* Client info styling */
+.single-client-content .single-client-text .single-client-thumb-info .client-info {
+  margin-left: 15px;
+}
+
+.single-client-content .single-client-text .single-client-thumb-info .client-info h6 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-client-content .single-client-text .single-client-thumb-info .client-info h6 {
+    font-size: 13px;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single-client-content .single-client-text .single-client-thumb-info .client-info h6 {
+    font-size: 12px;
+  }
+}
+
+/* Client info paragraph styling */
+.single-client-content .single-client-text .single-client-thumb-info .client-info p {
+  margin-bottom: 0;
+  color: #df42b1;
+}
+
+@media only screen and (max-width: 767px) {
+  .single-client-content .single-client-text .single-client-thumb-info .client-info p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .single-client-content .single-client-text .single-client-thumb-info .client-info p {
+    font-size: 12px;
+  }
+}
+
+/* About page styling */
+.single-client-content .single-client-text.about-page p {
+  color: #5d5e8d;
+}
+
+.single-client-content .single-client-text.about-page .client-info h6 {
+  color: #111343;
+}
+/* Client icon styling */
+.single-client-content .client-icon {
+  background: #df42b1;
+  background: -moz-linear-gradient(120deg, #df42b1 0%, #505add 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.7;
+  position: absolute;
+  top: -8px;
+  left: 45px;
+  font-size: 80px;
+}
+
+.single-client-content .client-icon i {
+  transform: rotate(180deg);
+}
+
+/* Client thumbnail image styling */
+.single-client-thumb img {
+  width: 68px;
+  height: 68px;
   object-fit: cover;
 }
+
+
+/* General section styling */
+ .our-ticket-pricing-table-area {
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0 0 0;
+}
+
+/* Container Flexbox Styling */
+#manu-counter {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to keep numbers in the same row */
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1; /* Allow to grow */
+}
+.col{
+  gap:5rem;
+}
+/* Individual Counter Box Styling */
+#manu-counter .col-md-3 {
+  flex: 1; /* Flex-grow and flex-shrink to maintain equal widths */
+  max-width: 23%; /* Maximum width to ensure all stay in the same row */
+  margin: 5px; /* Space between items */
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-weight: 650;
+  min-width: 100px; /* Minimum width to handle small screens */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Counter Text Styling */
+.js-counter {
+  font-size: 2.5rem; /* Adjusted font size */
+  font-weight: 650;
+}
+
+.manu-counter-label {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  #manu-counter .col-md-3 {
+      max-width: 23%; /* Flex-basis adjustment for mid-sized screens */
+      font-size: 1rem; /* Adjust font size */
+  }
+  .js-counter {
+      font-size: 2rem; /* Adjusted font size */
+  }
+  .manu-counter-label {
+      font-size: 1rem; /* Adjusted label font size */
+  }
+  .row{
+    gap:5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  #manu-counter .col-md-3 {
+      max-width: 23%; /* Ensure all numbers stay in the same row */
+      font-size: 0.9rem;
+  }
+  .js-counter {
+      font-size: 1.8rem;
+  }
+  .manu-counter-label {
+      font-size: 0.9rem;
+  }
+  .row{
+    gap:5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  #manu-counter .col-md-3 {
+      max-width: 22%; /* Slightly smaller to fit all in one row */
+      font-size: 0.9rem;
+  }
+  .js-counter {
+      font-size: 1.6rem;
+  }
+  .manu-counter-label {
+      font-size: 0.8rem;
+  }
+  .row{
+    gap:5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #manu-counter .col-md-3 {
+      max-width: 22%; /* Maintain fit for mobile devices */
+      font-size: 0.8rem;
+  }
+  .js-counter {
+      font-size: 1.4rem;
+  }
+  .manu-counter-label {
+      font-size: 0.8rem;
+  }
+  .row{
+    gap:5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #manu-counter {
+      flex-wrap: wrap; /* Allow wrapping for very small screens */
+      padding: 20px 0;
+  }
+  #manu-counter .col-md-3 {
+      max-width: 100%; /* Full width for each item on very small screens */
+      margin-bottom: 20px;
+  }
+  .js-counter {
+      font-size: 1.2rem;
+  }
+  .manu-counter-label {
+      font-size: 0.7rem;
+  }
+  .row{
+    gap:5rem;
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* :: 17.0 Schedule Area CSS */
 .our-schedule-area {
   position: relative;
@@ -1832,7 +2042,9 @@ input:required {
     flex: 0 0 42%;
     max-width: 42%;
     width: 42%;
-    padding-right: 15px; }
+    padding-right: 15px; 
+  }
+  
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .single-schedule-area .single-schedule-tumb-info {
         -webkit-box-flex: 0;
